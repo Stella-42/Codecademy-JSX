@@ -6,6 +6,8 @@ import MyComponent from './App';// alows me to use the function in app.js here
   <OtherComponent />
 </MyComponent>
 How to call and nest the component function
-
+EXAMPLE BELOW:
 */
+ReactDOM.createRoot(document.getElementById('app')).render(<MyComponent/>);
+
 
