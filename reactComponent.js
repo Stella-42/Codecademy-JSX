@@ -4,3 +4,4 @@ import React from 'react';
 function myComponent() {
    return <h1>Hello world</h1>;
 }
+export default MyComponent;//allow this function to be used in another file
