@@ -1,0 +1,18 @@
+import React from 'react';
+
+function Picture() {
+  return <img src="https://content.codecademy.com/courses/React/react_photo-octopus.jpg" />;
+}
+
+function Profile() {
+  return (
+    <>
+      <Picture /> //Picture component is referenced inside of the Profile component.Picture is responsible for a piece of Profile.
+      <h1>Name: Octavia</h1>
+      <h2>Species: Octopus</h2>
+       <h2>Class: Cephalopoda</h2>
+    </>
+  )
+}
+
+export default Profile;
